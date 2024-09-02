@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+
+    font-family: "Kanit", sans-serif;
+    /*
+    font-family: "Radio Canada Big", sans-serif;
+*/
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 0 50px;
+
+}
+
+fieldset{
+
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    
+ 
+    
+
+}
+
+#logo1 {
+    width: 150px;
+}
+
+#logo {
+    width: 390px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c070c;
+
+}
+
+.abas-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #0c070c;
+    width: 100%;
+    height: 100px;
+}
+
+.aba {
+    font-size: 20px;
+    transition: 0.8s all;
+}
+
+.aba:hover {
+    color: #0d0d0d;
+    transform: scale(1.1)
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+
+footer {
+    position: static;
+    width: 100%;
+    background-color: #0C070C;
+    padding: .5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.info{
+    
+
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        padding: 40px;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        box-shadow: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin: 0 0 50px;
+        padding: 0;
+        color: #FFFFFF;
+        text-align: center;
+    }
+       
+        
+
+
+
+#form{
+
+    float: right;
+    text-align: center;
+}
